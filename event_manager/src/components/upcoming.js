@@ -11,7 +11,7 @@ function Upcoming(){
             <p>Hackathon</p>
             </div><br></br><br></br>
             <div className="first">
-
+                <h1>DBMS</h1>
             </div><br></br><br></br>
             <div className="first">
 
