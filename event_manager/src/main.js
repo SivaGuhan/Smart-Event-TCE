@@ -9,25 +9,21 @@ function Main(){
                 <img id='lo' src={ClgLo} alt=''/>
                 <h1><b>TCE EVENTS</b></h1>
             </div><br></br>
-            <div className="cursor-default">
-                <span className="text-center">
-                <h1 className="animate-pulse">Welcome</h1><br></br>
-                </span>
-            </div>
+            
             <div className="welcome">
-            <form className='form'>
-                <br></br>
-                <p><b>Login</b></p>
-                <br></br>
-                <div className="in">
-                    <input type="email" id="email" autoComplete='off' placeholder="Username"></input>
-                </div><br></br>
-                <div className="in">
-                    <input type="password" id="pass" autoComplete='off' placeholder="Password"></input>
-                </div><br></br>
-                 <button type="submit">Submit</button><br></br>
-                 <p>New User?? <a href='./'><u>Click here</u></a> to register</p>
-            </form>
+                <div class="mx-auto my-36 flex h-[300px] w-[350px] flex-col border-2 rounded-3xl bg-white text-black shadow-xl">
+                    <div class="flex flex-col items-center">
+                        <input class="my-2 w-72 border p-2" type="email" placeholder="Username" />
+                        <input class="my-2 w-72 border p-2" type="password" placeholder="Password" />
+                    </div>
+                    <div class="my-2 flex justify-center">
+                        <button class="w-72 border bg-[#8B0000] text-white rounded-full p-2 font-sans">Login</button>
+                    </div>
+                    <h6>New User?</h6>
+                    <div class="my-2 flex justify-center">
+                        <button class="w-72 border bg-[#8B0000] text-white rounded-full p-2 font-sans">Register</button>
+                    </div>
+                </div>
             </div>
         </div>
     )
